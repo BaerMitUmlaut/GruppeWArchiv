@@ -11,4 +11,4 @@
 <a href="http://www.gruppe-w.de/bauleitung/?display=Archiv/Fahrzeuge/Wartung">
 <img src="https://raw.githubusercontent.com/Mezilsa/Bilder/master/Fahrzeuge/Wartung.jpg" width="200"></a>
 <a href="http://www.gruppe-w.de/bauleitung/?display=Archiv/Fahrzeuge/Fett_Fuel">
-<img src="https://raw.githubusercontent.com/Mezilsa/Bilder/master/Fahrzeuge/Fett_Fuel.jpg" width="200"></a>
+<img src="https://raw.githubusercontent.com/Mezilsa/Bilder/master/Fahrzeuge/Fett_Fuel.jpg" width="400"></a>

@@ -8,11 +8,11 @@
 	</node>
 
 	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/README.md">
-		<node displayname="Fahrüzeug Spawn" gitsrc="/Fahrzeug_Spawn/README.md"></node>
-		<node displayname="Repaüwn" gitsrc="/Fahrzeuge/Respawn/README.md"></node>
-		<node displayname="Wartung" gitsrc="/Fahrzeuge/Wartung/README.md"></node>
-		<node displayname="Wärmesicht" gitsrc="/Fahrzeuge/Warmesicht/README.md"></node>
-		<node displayname="Fett_Fuel" gitsrc="/Fahrzeuge/Fett_Fuel/README.md"></node>	
+		<node displayname="Fahrzeug Spawn" gitsrc="/Fahrzeug_Spawn/README.md"></node>
+		<node displayname="Repawn" gitsrc="/Respawn/README.md"></node>
+		<node displayname="Wartung" gitsrc="/Wartung/README.md"></node>
+		<node displayname="Wärmesicht" gitsrc="/Warmesicht/README.md"></node>
+		<node displayname="Fett_Fuel" gitsrc="/Fett_Fuel/README.md"></node>	
 	</node>
 
 	<node displayname="Immersion" gitsrc="/Immersion/README.md">

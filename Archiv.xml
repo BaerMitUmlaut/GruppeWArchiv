@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
 	<node displayname="Basentemplates" gitsrc="/Basentemplates/README.md">
-		<node displayname="Takistan" gitsrc="/Takistan-Templates/README.md"></node>
-		<node displayname="Zeustemplates" gitsrc="/Zeus-Templates/README.md"></node>
-		<node displayname="Floyds Basentemplate" gitsrc="/Floyds-Basentemplates/README.md"></node>
-		<node displayname="Ingamebriefing-Template" gitsrc="/Ingamebriefing/README.md"></node>
+		<node displayname="Takistan" gitsrc="/Basentemplates/Takistan-Templates/README.md"></node>
+		<node displayname="Zeustemplates" gitsrc="/Basentemplates/Zeus-Templates/README.md"></node>
+		<node displayname="Floyds Basentemplate" gitsrc="/Basentemplates/Floyds-Basentemplates/README.md"></node>
+		<node displayname="Ingamebriefing-Template" gitsrc="/Basentemplates/Ingamebriefing/README.md"></node>
 	</node>
 
 	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/README.md">
@@ -16,41 +16,41 @@
 	</node>
 
 	<node displayname="Immersion" gitsrc="/Immersion/README.md">
-		<node displayname="CAS  Fups" gitsrc="/CASFups/README.md"></node>
-		<node displayname="Damage to Object" gitsrc="/Damage_to_object/README.md"></node>
-		<node displayname="EX_Breath" gitsrc="/Ex_Breath/README.md"></node>	
-		<node displayname="Fraktionsbriefing" gitsrc="/Fraktionsbriefing/README.md"></node>
-		<node displayname="Get Out" gitsrc="/Get_out/README.md"></node>
-		<node displayname="Gewitter" gitsrc="/Gewitter/README.md"></node>
-		<node displayname="Omnis Storm" gitsrc="/Omni_Storm/README.md"></node>
-		<node displayname="B_Mapinteraction" gitsrc="/Map_Interaction/README.md"></node>
+		<node displayname="CAS  Fups" gitsrc="/Immersion/CASFups/README.md"></node>
+		<node displayname="Damage to Object" gitsrc="/Immersion/Damage_to_object/README.md"></node>
+		<node displayname="EX_Breath" gitsrc="/Immersion/Ex_Breath/README.md"></node>	
+		<node displayname="Fraktionsbriefing" gitsrc="/Immersion/Fraktionsbriefing/README.md"></node>
+		<node displayname="Get Out" gitsrc="/Immersion/Get_out/README.md"></node>
+		<node displayname="Gewitter" gitsrc="/Immersion/Gewitter/README.md"></node>
+		<node displayname="Omnis Storm" gitsrc="/Immersion/Omni_Storm/README.md"></node>
+		<node displayname="B_Mapinteraction" gitsrc="/Immersion/Map_Interaction/README.md"></node>
 	
 	</node>
 	
 	<node displayname="KI" gitsrc="/KI/README.md">
-		<node displayname="ASS" gitsrc="/ASS/README.md"></node>
-		<node displayname="CBA TASKDEFEND" gitsrc="/CBA_TaskDefend/README.md"></node>
-		<node displayname="EXART" gitsrc="/EXART/README.md"></node>
-		<node displayname="FUPS" gitsrc="/FUPS/README.md"></node>
-		<node displayname="KI noExit" gitsrc="/KI_noExit/README.md"></node>
-		<node displayname="Gigas Suppression" gitsrc="/Giga_Supression/README.md"></node>
+		<node displayname="ASS" gitsrc="/KI/ASS/README.md"></node>
+		<node displayname="CBA TASKDEFEND" gitsrc="/KI/CBA_TaskDefend/README.md"></node>
+		<node displayname="EXART" gitsrc="/KI/EXART/README.md"></node>
+		<node displayname="FUPS" gitsrc="/KI/FUPS/README.md"></node>
+		<node displayname="KI noExit" gitsrc="/KI/KI_noExit/README.md"></node>
+		<node displayname="Gigas Suppression" gitsrc="/KI/Giga_Supression/README.md"></node>
 	</node>
 	
 	<node displayname="Sounds" gitsrc="/Sounds/README.md">
-		<node displayname="Artillerie" gitsrc="/Artillerie/README.md"></node>
-		<node displayname="Donner" gitsrc="/Donner/README.md"></node>
-		<node displayname="Imam" gitsrc="/Imam/README.md"></node>
+		<node displayname="Artillerie" gitsrc="/Sounds/Artillerie/README.md"></node>
+		<node displayname="Donner" gitsrc="/Sounds/Donner/README.md"></node>
+		<node displayname="Imam" gitsrc="/Sounds/Imam/README.md"></node>
 	</node>
 	
 	<node displayname="Spieler" gitsrc="/Spieler/README.md">
-		<node displayname="Gruppenteleport" gitsrc="/Gruppenteleport/README.md"></node>
-		<node displayname="Loadouts" gitsrc="/Loadouts/README.md"></node>
-		<node displayname="Kamera" gitsrc="/Kamera/README.md"></node>
+		<node displayname="Gruppenteleport" gitsrc="/Spieler/Gruppenteleport/README.md"></node>
+		<node displayname="Loadouts" gitsrc="/Spieler/Loadouts/README.md"></node>
+		<node displayname="Kamera" gitsrc="/Spieler/Kamera/README.md"></node>
 	</node>
 
 	<node displayname="Workarrounds" gitsrc="/Workarrounds/README.md">
-		<node displayname="B_Tankflip" gitsrc="/B_tankflip/README.md"></node>
-		<node displayname="No Sprinting" gitsrc="/No_sprinting/README.md"></node>
-		<node displayname="Mez-Undig" gitsrc="/Mez_undig/README.md"></node>
+		<node displayname="B_Tankflip" gitsrc="/Workarrounds/B_tankflip/README.md"></node>
+		<node displayname="No Sprinting" gitsrc="/Workarrounds/No_sprinting/README.md"></node>
+		<node displayname="Mez-Undig" gitsrc="/Workarrounds/Mez_undig/README.md"></node>
 	</node>
 </archiv>

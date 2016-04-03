@@ -24,7 +24,10 @@
 		<node displayname="Gewitter" gitsrc="/Immersion/Gewitter/README.md"></node>
 		<node displayname="Omnis Storm" gitsrc="/Immersion/Omni_Storm/README.md"></node>
 		<node displayname="B_Mapinteraction" gitsrc="/Immersion/Map_Interaction/README.md"></node>
-	
+		<node displayname="Texteinblendung" gitsrc="/Immersion/Texteinblendung/README.md">
+			<node displayname="Text Mitte" gitsrc="/Immersion/Texteinblendung/Text_Center/README.md"></node>
+			<node displayname="Text unten rechts" gitsrc="/Immersion/Texteinblendung/Text_Bottom_right/README.md"></node>
+		</node>
 	</node>
 	
 	<node displayname="KI" gitsrc="/KI/README.md">

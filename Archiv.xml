@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
-	<node displayname="Bsssssasentemplates" gitsrc="/GruppeWArchiv/Basentemplates/README.md">
+	<node displayname="Basentemplates" gitsrc="GruppeWArchiv/Basentemplates/README.md">
 		
 	</node>
 
-	<node displayname="Fahrzeuge" gitsrc="/GruppeWArchiv/Fahrzeuged/README.md">
+	<node displayname="Fahrzeuge" gitsrc="GruppeWArchiv/Fahrzeuged/README.md">
 		
 	</node>
 
-	<node displayname="Immersion" gitsrc="/GruppeWArchiv/Immersion/README.md">
+	<node displayname="Immersion" gitsrc="GruppeWArchiv/Immersion/README.md">
 	
 	</node>
 
-	<node displayname="KI" gitsrc="/GruppeWArchiv/KI/README.md">
+	<node displayname="KI" gitsrc="GruppeWArchiv/KI/README.md">
 		
 	</node>
 	

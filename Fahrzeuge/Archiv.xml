@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<archiv>
-		<node displayname="Fahrzeug Spawn" gitsrc="/Fahrzeug_Spawn/README.md"></node>
-		<node displayname="Repawn" gitsrc="/Respawn/README.md"></node>
-		<node displayname="Wartung" gitsrc="/Wartung/README.md"></node>
-		<node displayname="Wärmesicht" gitsrc="/Warmesicht/README.md"></node>
-		<node displayname="Fett_Fuel" gitsrc="/Fett_Fuel/README.md"></node>
-
-</archiv>

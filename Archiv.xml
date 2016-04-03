@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
 	<node displayname="Basentemplates" gitsrc="/Basentemplates/README.md">
-		<node displayname="Takistan" gitsrc="/Takistan-Templates/README.md">
-		<node displayname="Zeustemplates" gitsrc="/Zeus-Templates/README.md">
-		<node displayname="Floyds Basentemplate" gitsrc="/Floyds-Basentemplates/README.md">
-		<node displayname="Ingamebriefing-Template" gitsrc="/Ingamebriefing/README.md">
+		<node displayname="Takistan" gitsrc="/Takistan-Templates/README.md"></node>
+		<node displayname="Zeustemplates" gitsrc="/Zeus-Templates/README.md"></node>
+		<node displayname="Floyds Basentemplate" gitsrc="/Floyds-Basentemplates/README.md"></node>
+		<node displayname="Ingamebriefing-Template" gitsrc="/Ingamebriefing/README.md"></node>
 	</node>
 
 	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/README.md">

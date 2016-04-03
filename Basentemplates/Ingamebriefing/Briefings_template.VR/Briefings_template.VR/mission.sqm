@@ -1,0 +1,664 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Props_F_Exp_A_Military_Equipment",
+		"BWA3_Flag",
+		"A3_Structures_F_Civ_InfoBoards",
+		"A3_Structures_F_Heli_Furniture",
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Props_F_Exp_A_Military_Equipment",
+		"BWA3_Flag",
+		"A3_Structures_F_Civ_InfoBoards",
+		"A3_Structures_F_Heli_Furniture",
+		"map_vr"
+	};
+	randomSeed=6158077;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Vehicles
+	{
+		items=65;
+		class Item0
+		{
+			position[]={3911.9802,5,4149.4155};
+			azimut=179.493;
+			id=0;
+			side="EMPTY";
+			vehicle="Land_DataTerminal_01_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={3903.72,5,4148.875};
+			id=1;
+			side="EMPTY";
+			vehicle="BWA3_Flag_Ger_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={3920.7361,5,4148.9971};
+			id=2;
+			side="EMPTY";
+			vehicle="BWA3_Flag_Ger_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={3915.8591,5,4148.8457};
+			azimut=155;
+			id=3;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={3908.5466,5,4148.8091};
+			azimut=205;
+			id=4;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={3907.3093,5,4155.3325};
+			id=5;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={3908.4021,5,4155.3286};
+			id=6;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={3909.47,5,4155.3291};
+			id=7;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={3910.5217,5,4155.3345};
+			id=8;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={3911.5613,5,4155.3286};
+			id=9;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={3912.614,5,4155.3398};
+			id=10;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={3913.6829,5,4155.335};
+			id=11;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={3914.7654,5,4155.3325};
+			id=12;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={3915.8665,5,4155.335};
+			id=13;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={3916.9119,5,4155.3379};
+			id=14;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={3907.3093,5,4156.9966};
+			id=15;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={3908.4021,5,4156.9927};
+			id=16;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={3909.47,5,4156.9932};
+			id=17;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={3910.5217,5,4156.9985};
+			id=18;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={3911.5613,5,4156.9927};
+			id=19;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={3912.614,5,4157.0039};
+			id=20;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={3913.6829,5,4156.999};
+			id=21;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={3914.7654,5,4156.9966};
+			id=22;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={3915.8665,5,4156.999};
+			id=23;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={3916.9119,5,4157.002};
+			id=24;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={3907.283,5,4158.7554};
+			id=25;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={3908.3757,5,4158.7515};
+			id=26;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item27
+		{
+			position[]={3909.4436,5,4158.752};
+			id=27;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={3910.4954,5,4158.7573};
+			id=28;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item29
+		{
+			position[]={3911.5349,5,4158.7515};
+			id=29;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item30
+		{
+			position[]={3912.5876,5,4158.7627};
+			id=30;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item31
+		{
+			position[]={3913.6565,5,4158.7578};
+			id=31;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item32
+		{
+			position[]={3914.739,5,4158.7554};
+			id=32;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item33
+		{
+			position[]={3915.8401,5,4158.7578};
+			id=33;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item34
+		{
+			position[]={3916.8855,5,4158.7607};
+			id=34;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item35
+		{
+			position[]={3907.2688,5,4160.4185};
+			id=35;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item36
+		{
+			position[]={3908.3616,5,4160.4146};
+			id=36;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item37
+		{
+			position[]={3909.4294,5,4160.415};
+			id=37;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item38
+		{
+			position[]={3910.4812,5,4160.4204};
+			id=38;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item39
+		{
+			position[]={3911.5208,5,4160.4146};
+			id=39;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item40
+		{
+			position[]={3912.5735,5,4160.4258};
+			id=40;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item41
+		{
+			position[]={3913.6423,5,4160.4209};
+			id=41;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item42
+		{
+			position[]={3914.7249,5,4160.4185};
+			id=42;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item43
+		{
+			position[]={3915.8259,5,4160.4209};
+			id=43;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item44
+		{
+			position[]={3916.8713,5,4160.4238};
+			id=44;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item45
+		{
+			position[]={3907.2693,5,4161.9482};
+			id=45;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item46
+		{
+			position[]={3908.3621,5,4161.9443};
+			id=46;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item47
+		{
+			position[]={3909.4299,5,4161.9448};
+			id=47;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item48
+		{
+			position[]={3910.4817,5,4161.9502};
+			id=48;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item49
+		{
+			position[]={3911.5212,5,4161.9443};
+			id=49;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item50
+		{
+			position[]={3912.574,5,4161.9556};
+			id=50;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item51
+		{
+			position[]={3913.6428,5,4161.9507};
+			id=51;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item52
+		{
+			position[]={3914.7253,5,4161.9482};
+			id=52;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item53
+		{
+			position[]={3915.8264,5,4161.9507};
+			id=53;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item54
+		{
+			position[]={3916.8718,5,4161.9536};
+			id=54;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item55
+		{
+			position[]={3907.3093,5,4163.5034};
+			id=55;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item56
+		{
+			position[]={3908.4021,5,4163.4995};
+			id=56;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item57
+		{
+			position[]={3909.47,5,4163.5};
+			id=57;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item58
+		{
+			position[]={3910.5217,5,4163.5054};
+			id=58;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item59
+		{
+			position[]={3911.5613,5,4163.4995};
+			id=59;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item60
+		{
+			position[]={3912.614,5,4163.5107};
+			id=60;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item61
+		{
+			position[]={3913.6829,5,4163.5059};
+			id=61;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item62
+		{
+			position[]={3914.7654,5,4163.5034};
+			id=62;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item63
+		{
+			position[]={3915.8665,5,4163.5059};
+			id=63;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+		class Item64
+		{
+			position[]={3916.9119,5,4163.5088};
+			id=64;
+			side="EMPTY";
+			vehicle="Land_OfficeChair_01_F";
+			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3913.3884,5,4164.9956};
+			name="HQ";
+			text="HQ";
+			type="b_hq";
+			angle=-34.849392;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=2250069;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=145172;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"map_vr"
+	};
+	addOnsAuto[]=
+	{
+		"map_vr"
+	};
+	randomSeed=15302760;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
-	<node displayname="Basentemplates" gitsrc="GruppeWArchiv/Basentemplates/README.md">
-		
+	<node displayname="Basentemplates" gitsrc="/Basentemplates/README.md">
+		<node displayname="Takistan" gitsrc="/Takistan-Templates/README.md"></node>
+		<node displayname="Zeustemplates" gitsrc="/Zeus-Templates/README.md"></node>
+		<node displayname="Floyds Basentemplate" gitsrc="/Floyds-Basentemplates/README.md"></node>
+		<node displayname="Ingamebriefing-Template" gitsrc="/Ingamebriefing/README.md"></node>
 	</node>
 
-	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuged/README.md">
+	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/README.md">
 		<node displayname="Fahrzeug Spawn" gitsrc="/Fahrzeug_Spawn/README.md"></node>
 		<node displayname="Repawn" gitsrc="/Respawn/README.md"></node>
 		<node displayname="Wartung" gitsrc="/Wartung/README.md"></node>
@@ -12,22 +15,44 @@
 		<node displayname="Fett_Fuel" gitsrc="/Fett_Fuel/README.md"></node>	
 	</node>
 
-	<node displayname="Immersion" gitsrc="GruppeWArchiv/Immersion/README.md">
-	
+	<node displayname="Immersion" gitsrc="/Immersion/README.md">
+		<node displayname="CAS  Fups" gitsrc="/CASFups/README.md"></node>
+		<node displayname="Damage to Object" gitsrc="/Damage_to_object/README.md"></node>
+		<node displayname="EX_Breath" gitsrc="/Ex_Breath/README.md"></node>	
+		<node displayname="Fraktionsbriefing" gitsrc="/Fraktionsbriefing/README.md"></node>
+		<node displayname="Get Out" gitsrc="/Get_out/README.md"></node>
+		<node displayname="Gewitter" gitsrc="/Gewitter/README.md"></node>
+		<node displayname="Omnis Storm" gitsrc="/Omni_Storm/README.md"></node>
+		<node displayname="B_Mapinteraction" gitsrc="/Map_Interaction/README.md"></node>
+		<node displayname="Texteinblendung" gitsrc="/Texteinblendung/README.md">
+			<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
+			<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+		</node>
 	</node>
 
-	<node displayname="KI" gitsrc="GruppeWArchiv/KI/README.md">
-		
+	<node displayname="KI" gitsrc="/KI/README.md">
+		<node displayname="ASS" gitsrc="/ASS/README.md"></node>
+		<node displayname="CBA TASKDEFEND" gitsrc="/CBA_TaskDefend/README.md"></node>
+		<node displayname="EXART" gitsrc="/EXART/README.md"></node>
+		<node displayname="FUPS" gitsrc="/FUPS/README.md"></node>
+		<node displayname="KI noExit" gitsrc="/KI_noExit/README.md"></node>
+		<node displayname="Gigas Suppression" gitsrc="/Giga_Supression/README.md"></node>
 	</node>
 	
-	<node displayname="Sounds" gitsrc="/GruppeWArchiv/Sounds/README.md">
-	
+	<node displayname="Sounds" gitsrc="/Sounds/README.md">
+		<node displayname="Artillerie" gitsrc="/Artillerie/README.md"></node>
+		<node displayname="Donner" gitsrc="/Donner/README.md"></node>
+		<node displayname="Imam" gitsrc="/Imam/README.md"></node>
 	</node>
-	<node displayname="Spieler" gitsrc="/GruppeWArchiv/Spieler/README.md">
-		
+	<node displayname="Spieler" gitsrc="/Spieler/README.md">
+		<node displayname="Gruppenteleport" gitsrc="/Gruppenteleport/README.md"></node>
+		<node displayname="Loadouts" gitsrc="/Loadouts/README.md"></node>
+		<node displayname="Kamera" gitsrc="/Kamera/README.md"></node>
 	</node>
 
-	<node displayname="Workarrounds" gitsrc="/GruppeWArchiv/Workarrounds/README.md">
-		
+	<node displayname="Workarrounds" gitsrc="/Workarrounds/README.md">
+		<node displayname="B_Tankflip" gitsrc="/B_tankflip/README.md"></node>
+		<node displayname="No Sprinting" gitsrc="/No_sprinting/README.md"></node>
+		<node displayname="Mez-Undig" gitsrc="/Mez_undig/README.md"></node>
 	</node>
 </archiv>

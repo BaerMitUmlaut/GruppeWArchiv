@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
-	<node displayname="Basentemplates" gitsrc="/Basentemplates/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+	<node displayname="Basentemplates" gitsrc="/GruppeWArchiv/Basentemplates/Texteinblendung/README.md">
+		
 	</node>
 
 	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+		
 	</node>
 
 	<node displayname="Immersion" gitsrc="/Immersion/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+	
 	</node>
 
 	<node displayname="KI" gitsrc="/KI/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+		
 	</node>
 	
 	<node displayname="Sounds" gitsrc="/Sounds/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+	
 	</node>
 	<node displayname="Spieler" gitsrc="/Spieler/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+		
 	</node>
+
 	<node displayname="Workarrounds" gitsrc="/Workarrounds/Texteinblendung/README.md">
-		<node displayname="Text Mitte" gitsrc="/Texteinblendung/Text_Center/README.md"></node>
-		<node displayname="Text unten rechts" gitsrc="/Texteinblendung/Text_Bottom_right/README.md"></node>
+		
 	</node>
 </archiv>

@@ -5,7 +5,11 @@
 	</node>
 
 	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuged/README.md">
-		
+	<node displayname="Fahrzeug Spawn" gitsrc="/Fahrzeug_Spawn/README.md"></node>
+	<node displayname="Repawn" gitsrc="/Respawn/README.md"></node>
+	<node displayname="Wartung" gitsrc="/Wartung/README.md"></node>
+	<node displayname="Wärmesicht" gitsrc="/Warmesicht/README.md"></node>
+	<node displayname="Fett_Fuel" gitsrc="/Fett_Fuel/README.md"></node>	
 	</node>
 
 	<node displayname="Immersion" gitsrc="GruppeWArchiv/Immersion/README.md">

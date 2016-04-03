@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <archiv>
-	<node displayname="Basentemplates" gitsrc="/GruppeWArchiv/Basentemplates/Texteinblendung">
+	<node displayname="Basentemplates" gitsrc="/GruppeWArchiv/Basentemplates/README.md">
 		
 	</node>
 
-	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/Texteinblendung/README.md">
+	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuge/README.md">
 		
 	</node>
 
-	<node displayname="Immersion" gitsrc="/Immersion/Texteinblendung/README.md">
+	<node displayname="Immersion" gitsrc="/Immersion/README.md">
 	
 	</node>
 
-	<node displayname="KI" gitsrc="/KI/Texteinblendung/README.md">
+	<node displayname="KI" gitsrc="/KI/README.md">
 		
 	</node>
 	
-	<node displayname="Sounds" gitsrc="/Sounds/Texteinblendung/README.md">
+	<node displayname="Sounds" gitsrc="/Sounds/README.md">
 	
 	</node>
-	<node displayname="Spieler" gitsrc="/Spieler/Texteinblendung/README.md">
+	<node displayname="Spieler" gitsrc="/Spieler/README.md">
 		
 	</node>
 
-	<node displayname="Workarrounds" gitsrc="/Workarrounds/Texteinblendung/README.md">
+	<node displayname="Workarrounds" gitsrc="/Workarrounds/README.md">
 		
 	</node>
 </archiv>

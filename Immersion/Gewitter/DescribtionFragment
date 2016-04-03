@@ -1,0 +1,83 @@
+	class Thunder1
+	{
+		name="Thunder1";
+		sound[]={Sounds\Thunder1.ogg, 1, 1};
+		titles[]={};
+	};
+	class Thunder2
+	{
+		name="Thunder2";
+		sound[]={Sounds\Thunder2.ogg, 1, 1};
+		titles[]={};
+	};
+
+	class Thunder3
+	{
+		name="Thunder3";
+		sound[]={Sounds\Thunder3.ogg, 1, 1};
+		titles[]={};
+	};
+
+	class Thunder4
+	{
+		name="Thunder4";
+		sound[]={Sounds\Thunder4.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder5
+	{
+		name="Thunder5";
+		sound[]={Sounds\Thunder5.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder6
+	{
+		name="Thunder6";
+		sound[]={Sounds\Thunder6.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder7
+	{
+		name="Thunder7";
+		sound[]={Sounds\Thunder7.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder8
+	{
+		name="Thunder8";
+		sound[]={Sounds\Thunder8.ogg, 1,1};
+		titles[]={};
+	};
+
+
+	class Thunder9
+	{
+		name="Thunder9";
+		sound[]={Sounds\Thunder9.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder10
+	{
+		name="Thunder10";
+		sound[]={Sounds\Thunder10.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder11
+	{
+		name="Thunder11";
+		sound[]={Sounds\Thunder11.ogg, 1,1};
+		titles[]={};
+	};
+
+	class Thunder12
+	{
+		name="Thunder12";
+		sound[]={Sounds\Thunder12.ogg, 1,1};
+		titles[]={};
+	};

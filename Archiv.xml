@@ -15,6 +15,18 @@
 		<node displayname="Fett_Fuel" gitsrc="/Fahrzeuge/Fett_Fuel/README.md"></node>	
 	</node>
 
+	<node displayname="Immersion" gitsrc="/Immersion/README.md">
+		<node displayname="CAS  Fups" gitsrc="/CASFups/README.md"></node>
+		<node displayname="Damage to Object" gitsrc="/Damage_to_object/README.md"></node>
+		<node displayname="EX_Breath" gitsrc="/Ex_Breath/README.md"></node>	
+		<node displayname="Fraktionsbriefing" gitsrc="/Fraktionsbriefing/README.md"></node>
+		<node displayname="Get Out" gitsrc="/Get_out/README.md"></node>
+		<node displayname="Gewitter" gitsrc="/Gewitter/README.md"></node>
+		<node displayname="Omnis Storm" gitsrc="/Omni_Storm/README.md"></node>
+		<node displayname="B_Mapinteraction" gitsrc="/Map_Interaction/README.md"></node>
+	
+	</node>
+	
 	<node displayname="KI" gitsrc="/KI/README.md">
 		<node displayname="ASS" gitsrc="/ASS/README.md"></node>
 		<node displayname="CBA TASKDEFEND" gitsrc="/CBA_TaskDefend/README.md"></node>

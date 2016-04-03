@@ -4,26 +4,26 @@
 		
 	</node>
 
-	<node displayname="Fahrzeuge" gitsrc="/Fahrzeuged/README.md">
+	<node displayname="Fahrzeuge" gitsrc="/GruppeWArchiv/Fahrzeuged/README.md">
 		
 	</node>
 
-	<node displayname="Immersion" gitsrc="/Immersion/README.md">
+	<node displayname="Immersion" gitsrc="/GruppeWArchiv/Immersion/README.md">
 	
 	</node>
 
-	<node displayname="KI" gitsrc="/KI/README.md">
+	<node displayname="KI" gitsrc="/GruppeWArchiv/KI/README.md">
 		
 	</node>
 	
-	<node displayname="Sounds" gitsrc="/Sounds/README.md">
+	<node displayname="Sounds" gitsrc="/GruppeWArchiv/Sounds/README.md">
 	
 	</node>
-	<node displayname="Spieler" gitsrc="/Spieler/README.md">
+	<node displayname="Spieler" gitsrc="/GruppeWArchiv/Spieler/README.md">
 		
 	</node>
 
-	<node displayname="Workarrounds" gitsrc="/Workarrounds/README.md">
+	<node displayname="Workarrounds" gitsrc="/GruppeWArchiv/Workarrounds/README.md">
 		
 	</node>
 </archiv>

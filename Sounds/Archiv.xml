@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archiv>
+		<node displayname="Artillerie" gitsrc="/Artillerie/README.md"></node>
+		<node displayname="Donner" gitsrc="/Donner/README.md"></node>
+		<node displayname="Imam" gitsrc="/Imam/README.md"></node>
+</archiv>

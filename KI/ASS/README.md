@@ -1,7 +1,7 @@
 #ASS
 by [W]Omniman and [W]Mezilsa
 
-> ##[Download](https://github.com/Mezilsa/KI/releases/download/1.1.1/ASS.1.1.1.rar)
+> ##[Download](https://github.com/Mezilsa/GruppeWArchiv/releases/download/1.1.2/ASS.1.1.2.rar)
 
 ###Funktion:
  

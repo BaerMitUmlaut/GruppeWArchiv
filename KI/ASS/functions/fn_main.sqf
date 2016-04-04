@@ -1,16 +1,16 @@
- /*
+/*
  * Author: [W] OmniMan & [W] Mezilsa
  * Automates a FUPS-assault on a predefined area
  *
  * Arguments:
- * 0: <OBJECT>  Assaultet Trigger
- * 1: <STRING> - Assaultet Marker
- * 2: <NUMBER>Maximal active KI
- * 3: <NUMBER>Time until armored Units are spawning
- * 4: <NUMBER>Time until aerial Units are spawning
- * @optional 5: <NUMBER> Chance of spawning an armored unit   DEFAULT: 10%
- * @optional 6: <NUMBER> Chance of spawning an aerial unit  DEFAULT: 5%
- * @optional 7: <NUMBER> How many enemies can be spawned completly until script ends DEFAULT: 300 Units
+ * 0:            <OBJECT> - Assaultet Trigger
+ * 1:            <STRING> - Assaultet Marker
+ * 2:            <NUMBER> - Maximal active KI
+ * 3:            <NUMBER> - Time until armored Units are spawning
+ * 4:            <NUMBER> - Time until aerial Units are spawning
+ * @optional 5:  <NUMBER> - Chance of spawning an armored unit   DEFAULT: 10%
+ * @optional 6:  <NUMBER> - Chance of spawning an aerial unit  DEFAULT: 5%
+ * @optional 7:  <NUMBER> - How many enemies can be spawned completly until script ends DEFAULT: 300 Units
  *
  * Example:
  * _wert=[thisTrigger,"Camp_Whiskey",74,3600,1800,20,10,100] spawn ass_fnc_main;

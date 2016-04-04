@@ -60,7 +60,7 @@ _firstGroup params ["_side_templates"];
 sleep 10;
 
 // Script will run until Playernumber  is 6.
-while {&&(ASS_Count_Spawned<_tillEnd)&& {(count (allPlayers) > 6)}} do {
+while {(ASS_Count_Spawned<_tillEnd)&& {(count (allPlayers) > 6)}} do {
   
   _list = list _trigger;
   ASS_Count_Trigger = count (_list arrayIntersect playableUnits);

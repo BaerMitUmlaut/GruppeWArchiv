@@ -1,4 +1,4 @@
-/*
+ /*
  * Author: [W] OmniMan & [W] Mezilsa
  * Automates a FUPS-assault on a predefined area
  *
@@ -8,8 +8,8 @@
  * 2: <NUMBER>Maximal active KI
  * 3: <NUMBER>Time until armored Units are spawning
  * 4: <NUMBER>Time until aerial Units are spawning
- * @optional 5: <NUMBER> Chance of spawning an armored unit 	DEFAULT: 10%
- * @optional 6: <NUMBER> Chance of spawning an aerial unit 	DEFAULT: 5%
+ * @optional 5: <NUMBER> Chance of spawning an armored unit   DEFAULT: 10%
+ * @optional 6: <NUMBER> Chance of spawning an aerial unit  DEFAULT: 5%
  * @optional 7: <NUMBER> How many enemies can be spawned completly until script ends DEFAULT: 300 Units
  *
  * Example:
@@ -19,9 +19,9 @@
 
 params [["_trigger",ObjNull,[ObjNull]],["_marker","",[""]],["_maxKI",0,[0]],["_timeAPC",0,[0]],["_timeAIR",0,[0]],["_probAPC",0,[10]],["_probAIR",0,[5]],["_tillEnd",0,[300]]];
 
-private  _infantrie_all = [];
-private  _apc_all = [];
-private  _air_all = [];
+private _infantrie_all = [];
+private _apc_all = [];
+private _air_all = [];
 private _list = [];
 private _template_count = [];
 private _apc=0;
@@ -59,13 +59,13 @@ _firstGroup params ["_side_templates"];
 
 sleep 10;
 
-// Script will run until Playernumber  is 0.
-while {(count (allUnits - playableUnits) > 0)&&(ASS_Count_Spawned<_tillEnd)} do {
-    
+// Script will run until Playernumber  is 6.
+while {&&(ASS_Count_Spawned<_tillEnd)&& {(count (allPlayers) > 6)}} do {
+  
   _list = list _trigger;
   ASS_Count_Trigger = count (_list arrayIntersect playableUnits);
   
-  if ((count(allUnits - playableUnits) < _maxKI)AND(Time > _timeAPC)AND (0!=count _apc_all ) AND ((floor random 100)<=_probAPC) ) then {
+  if ((Time > _timeAPC)  AND {((floor random 100)<=_probAPC)} AND {(count(allUnits - playableUnits) < _maxKI)}AND {(0!=count _apc_all )}) then {
     
     //APC Assault
     _reinfGroup=count ASS_used_Groups;
@@ -80,16 +80,16 @@ while {(count (allUnits - playableUnits) > 0)&&(ASS_Count_Spawned<_tillEnd)} do 
     
   }
   else{
-    if ((count(allUnits - playableUnits) < _maxKI)AND (0!=count _infantrie_all )) then {
+    if ((count(allUnits - playableUnits) < _maxKI)AND {(0!=count _infantrie_all )}) then {
       
       //INF Assault
-
-        [_marker,_infantrie_all,_list,_template_count] call ass_fnc_spawn_Infantrie;
-
+      
+      [_marker,_infantrie_all,_list,_template_count] call ass_fnc_spawn_Infantrie;
+      
     };
   };  
   sleep 5;
-  if ((Time>_timeAIR)AND(count(allUnits - playableUnits) < _maxKI) AND (0!=count _air_all ) ) then {
+  if ((Time>_timeAIR)AND {((floor random 100)<=_probAIR)}AND {(count(allUnits - playableUnits) < _maxKI)} AND {(0!=count _air_all )}) then {
     
     //AIR Assault
     _reinfGroup=count ASS_used_Groups;
@@ -105,19 +105,19 @@ while {(count (allUnits - playableUnits) > 0)&&(ASS_Count_Spawned<_tillEnd)} do 
   }
   else
   {
-    if ((count(allUnits - playableUnits) < _maxKI ) AND (0!=count _infantrie_all )) then {
-       
+    if ((count(allUnits - playableUnits) < _maxKI)AND {(0!=count _infantrie_all )}) then {
+      
       //INF Assault
-
-   [_marker,_infantrie_all,_list,_template_count] call ass_fnc_spawn_Infantrie;
-
+      
+      [_marker,_infantrie_all,_list,_template_count] call ass_fnc_spawn_Infantrie;
+      
     };
   }; 
   sleep 5;
-  if ((count(allUnits - playableUnits) < _maxKI )AND (0!=count _infantrie_all )) then {
-
+  if ((count(allUnits - playableUnits) < _maxKI)AND {(0!=count _infantrie_all )}) then {
+    
     //INF Assault
-
+    
     [_marker,_infantrie_all,_list,_template_count] call ass_fnc_spawn_Infantrie;
   }; 
   

@@ -60,7 +60,7 @@ _firstGroup params ["_side_templates"];
 sleep 10;
 
 // Script will run until Playernumber  is 6.
-while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 6}} do {
+  while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 6}} do {
   
   _list = list _trigger;
   ASS_Count_Trigger = count (_list arrayIntersect playableUnits);
@@ -73,9 +73,14 @@ while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 6}} do {
     
     _rp = selectRandom ASS_RallyPoint_ground;
     _apc= selectRandom _apc_all; 
-    _assault = [getpos (_rp),_marker,[_apc],["REINFORCEMENT:",[_reinfGroup]]] call FUPS_fnc_spawn;
-    
-    [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
+    [_reinfGroup,_rp,_apc] spawn { 
+      
+      params ["_reinfGroup","_rp","_apc"];
+      
+      _assault = [getpos (_rp),_marker,[_apc],["REINFORCEMENT:",[_reinfGroup]]] call FUPS_fnc_spawn;
+      
+      [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
+    };
     ASS_Count_Spawned = ASS_Count_Spawned + (_template_count select _apc);
     
   }
@@ -97,9 +102,16 @@ while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 6}} do {
     
     _rp = selectRandom ASS_RallyPoint_air;
     _air = selectRandom _air_all;
-    _assault = [getpos _rp, _marker, [_air], ["REINFORCEMENT:", [_reinfGroup]]] call FUPS_fnc_spawn;
     
-    [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
+    [_reinfGroup,_rp,_air] spawn { 
+      
+      params ["_reinfGroup","_rp","_air"];
+      
+      _assault = [getpos _rp, _marker, [_air], ["REINFORCEMENT:", [_reinfGroup]]] call FUPS_fnc_spawn;
+      
+      [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
+    };
+    
     ASS_Count_Spawned = ASS_Count_Spawned + (_template_count select _air);
     
   }

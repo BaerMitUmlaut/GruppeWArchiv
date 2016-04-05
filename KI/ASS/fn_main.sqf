@@ -57,7 +57,7 @@ _firstGroup params ["_side_templates"];
 }forEach (FUPS_templates);
 
 
-  sleep 15;
+  sleep 10;
 
 // Script will run until Playernumber  is 6.
   while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {

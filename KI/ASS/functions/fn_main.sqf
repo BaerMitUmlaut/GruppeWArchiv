@@ -57,10 +57,10 @@ _firstGroup params ["_side_templates"];
 }forEach (FUPS_templates);
 
 
-sleep 10;
+  sleep 10;
 
 // Script will run until Playernumber  is 6.
-while  {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
+  while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
   
   _list = list _trigger;
   ASS_Count_Trigger = count (_list arrayIntersect playableUnits);
@@ -78,7 +78,7 @@ while  {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
       params ["_reinfGroup","_rp","_apc","_list","_marker","_side_templates"];
       
       _assault = [getpos (_rp),_marker,[_apc],["REINFORCEMENT:",[_reinfGroup]]] call FUPS_fnc_spawn;
-      
+      sleep 10;
       [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
     };
     ASS_Count_Spawned = ASS_Count_Spawned + (_template_count select _apc);
@@ -89,12 +89,11 @@ while  {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
       
       //INF Assault
       
-      
       [_marker,_infantrie_all,_list,_template_count,_side_templates] call ass_fnc_spawn_Infantrie;
       
     };
   };  
-  sleep 5;
+   sleep 10;
   if ((Time>_timeAIR)AND {(floor random 100)<=_probAIR}AND {count(allUnits - playableUnits) < _maxKI} AND {0!=count _air_all}) then {
     
     //AIR Assault
@@ -106,7 +105,7 @@ while  {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
     
     [_reinfGroup,_rp,_air,_list,_marker,_side_templates] spawn { 
       
-      params ["_reinfGroup","_rp","_list","_air","_marker", "_side_templates"];
+      params ["_reinfGroup","_rp","_air","_list","_marker","_side_templates"];
       
       _assault = [getpos _rp, _marker, [_air], ["REINFORCEMENT:", [_reinfGroup]]] call FUPS_fnc_spawn;
       
@@ -122,13 +121,11 @@ while  {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
       
       //INF Assault
       
-      
       [_marker,_infantrie_all,_list,_template_count,_side_templates] call ass_fnc_spawn_Infantrie;
       
     };
   }; 
-  
-  sleep 5;
+   sleep 10;
   if ((count(allUnits - playableUnits) < _maxKI)AND {0!=count _infantrie_all}) then {
     
     //INF Assault

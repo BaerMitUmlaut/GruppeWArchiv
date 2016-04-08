@@ -1,4 +1,4 @@
-/*
+                                                                                                                                                              /*
  * Author: [W] OmniMan & [W] Mezilsa
  * Automates a FUPS-assault on a predefined area
  *
@@ -57,46 +57,42 @@ _firstGroup params ["_side_templates"];
 }forEach (FUPS_templates);
 
 
-  sleep 15;
 
-// Script will run until Playernumber  is 6.
-  while {(ASS_Count_Spawned<_tillEnd)&& {count allPlayers > 0}} do {
+[{
+  //Initialisierung
   
+  params ["_args", "_pfhHandler"];
+  _args params ["_maxKI","_marker","_infantrie_all","_trigger","_template_count","_side_templates","_air_all","_timeAIR","_timeAPC","_probAIR","_probAPC","_tillEnd","_apc_all"];
   _list = list _trigger;
-  ASS_Count_Trigger = count (_list arrayIntersect playableUnits);
   
+  //Bedingung für Scriptende
+  if((ASS_Count_Spawned>_tillEnd) && {count allPlayers < 0})then {
+    [_pfhHandler] call CBA_fnc_removePerFrameHandler;
+  };
+  //Panzerspawn
   if ((Time > _timeAPC)  AND {(floor random 100)<=_probAPC} AND {(count(allUnits - playableUnits) < _maxKI)}AND {0!=count _apc_all}) then {
     
-    //APC Assault
     _reinfGroup=count ASS_used_Groups;
     ASS_used_Groups pushBack _reinfGroup;
     
     _rp = selectRandom ASS_RallyPoint_ground;
     _apc= selectRandom _apc_all; 
+    
     [_reinfGroup,_rp,_apc,_list,_marker,_side_templates] spawn { 
       
       params ["_reinfGroup","_rp","_apc","_list","_marker","_side_templates"];
       
       _assault = [getpos (_rp),_marker,[_apc],["REINFORCEMENT:",[_reinfGroup]]] call FUPS_fnc_spawn;
-      sleep 10;
+      
       [_list, [_reinfGroup], _side_templates, true, true] call FUPS_fnc_reinforcement;
     };
     ASS_Count_Spawned = ASS_Count_Spawned + (_template_count select _apc);
     
-  }
-  else{
-    if ((count(allUnits - playableUnits) < _maxKI)AND {0!=count _infantrie_all}) then {
-      
-      //INF Assault
-      
-      [_marker,_infantrie_all,_list,_template_count,_side_templates] call ass_fnc_spawn_Infantrie;
-      
-    };
-  };  
-   sleep 10;
-  if ((Time>_timeAIR)AND {(floor random 100)<=_probAIR}AND {count(allUnits - playableUnits) < _maxKI} AND {0!=count _air_all}) then {
+  };
+  
+  //Lufteinheiten
+  if ((Time>_timeAIR) AND {(floor random 100)<=_probAIR} AND {count(allUnits - playableUnits) < _maxKI} AND {0!=count _air_all}) then {
     
-    //AIR Assault
     _reinfGroup=count ASS_used_Groups;
     ASS_used_Groups pushBack _reinfGroup;
     
@@ -114,24 +110,12 @@ _firstGroup params ["_side_templates"];
     
     ASS_Count_Spawned = ASS_Count_Spawned + (_template_count select _air);
     
-  }
-  else
-  {
-    if ((count(allUnits - playableUnits) < _maxKI)AND {0!=count _infantrie_all}) then {
-      
-      //INF Assault
-      
-      [_marker,_infantrie_all,_list,_template_count,_side_templates] call ass_fnc_spawn_Infantrie;
-      
-    };
-  }; 
-   sleep 10;
+  };
+  
+  //INFANTRIE
   if ((count(allUnits - playableUnits) < _maxKI)AND {0!=count _infantrie_all}) then {
-    
-    //INF Assault
     
     [_marker,_infantrie_all,_list,_template_count,_side_templates] call ass_fnc_spawn_Infantrie;
   }; 
   
-  sleep 10;
-};
+} , 60, [_maxKI,_marker,_infantrie_all,_trigger,_template_count,_side_templates,_air_all,_timeAIR,_timeAPC,_probAIR,_probAPC,_tillEnd,_apc_all] ] call CBA_fnc_addPerFrameHandler;

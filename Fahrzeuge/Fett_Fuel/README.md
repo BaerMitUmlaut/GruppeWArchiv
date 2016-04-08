@@ -24,5 +24,5 @@
 > 
 > ###Erläuterung:
 
->Fuelconsumption = 1 entspricht normalem Verbrauch
+>Fuelconsumption = 1 entspricht normalem Verbrauch<br>
 >Fuelconsumption = 2 entspricht doppeltem Verbrauch

@@ -1,4 +1,4 @@
-#Fett_Fuel
+#Fett Fuel
 
 > ##[Download](https://github.com/Mezilsa/Fahrzeuge/blob/master/Fett_Fuel/fett_fuel.sqf)
 
@@ -14,8 +14,8 @@
 > *Füge folgenden Code in deine PlayerInitLocal.sqf**
 > 
 
-|[[Fahrzeugname1,Fahrzeugname2], 2.1] execVM "scripts\fett_fuel.sqf";  |
-|------------------------------------------|
+`[[Fahrzeugname1,Fahrzeugname2], 2.1] execVM "scripts\fett_fuel.sqf"; `
+
 
 >-Füge die Namen der Fahrzeuge, die betroffen sein sollen in die innerne geschwungenen Klammern
 

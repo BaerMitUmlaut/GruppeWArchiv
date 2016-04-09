@@ -1,8 +1,17 @@
-private ["_map"];
+/*
+ * Author: BaerMitUmlaut/BlauBär
+ * Spawns a map and sets the objects texture to the current map.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ */
 
 ACE_player playActionNow "PutDown";
 
-_map = "Land_Map_blank_F" createVehicle [0,0,0];
+private _map = "Land_Map_blank_F" createVehicle [0,0,0];
 switch (worldName) do {
     case "Altis": {
         _map setObjectTextureGlobal [0, "\A3\structures_f_epb\Items\Documents\Data\map_altis_co.paa"];

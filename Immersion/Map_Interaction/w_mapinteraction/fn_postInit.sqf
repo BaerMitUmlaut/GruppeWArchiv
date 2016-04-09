@@ -1,3 +1,15 @@
+/*
+ * Author: BaerMitUmlaut/BlauBär
+ * Adds the interactions to player and static maps.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ */
+private ["_actOpen", "_actTake", "_actPut"];
+
 if (!hasInterface) exitWith {};
 
 _actOpen = ["W_Map_Open", "Anschauen", "", {_this call w_mapinteraction_fnc_openMap}, {!("ItemMap" in assignedItems ACE_player)}] call ace_interact_menu_fnc_createAction;
